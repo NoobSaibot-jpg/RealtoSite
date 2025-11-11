@@ -1,0 +1,16 @@
+.navbar-gradient {
+  background: linear-gradient(90deg, var(--header-gradient-start) 0%, var(--header-gradient-end) 100%);
+}
+
+.navbar-gradient .nav-link {
+  color: var(--header-text) !important;
+  font-weight: 500;
+}
+
+.navbar-gradient .nav-link:hover {
+  color: var(--header-text-hover) !important;
+}
+
+.navbar-gradient .navbar-brand {
+    color: var(--header-brand-text) !important;
+}

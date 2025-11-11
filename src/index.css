@@ -1,13 +1,43 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Share Tech Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Light Theme Variables */
+:root[data-theme='light'] {
+  --primary-color: #3a7bd5;
+  --secondary-color: #00d2ff;
+  --background-color: #f8f9fa; /* Light gray */
+  --text-color: #212529; /* Dark gray */
+  --card-bg: #ffffff;
+  --card-text: #212529;
+  --header-text: rgba(0, 0, 0, 0.7);
+  --header-text-hover: rgba(0, 0, 0, 0.9);
+  --header-brand-text: rgba(0, 0, 0, 0.9);
+  --header-gradient-start: #3a7bd5;
+  --header-gradient-end: #00d2ff;
+}
+
+/* Dark Theme Variables */
+:root[data-theme='dark'] {
+  --primary-color: #00d2ff;
+  --secondary-color: #3a7bd5;
+  --background-color: #212529; /* Dark gray */
+  --text-color: #f8f9fa; /* Light gray */
+  --card-bg: #343a40;
+  --card-text: #f8f9fa;
+  --header-text: rgba(255, 255, 255, 0.7);
+  --header-text-hover: rgba(255, 255, 255, 0.9);
+  --header-brand-text: rgba(255, 255, 255, 0.9);
+  --header-gradient-start: #0a2a5e;
+  --header-gradient-end: #1d5a8a;
 }
