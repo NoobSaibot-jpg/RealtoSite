@@ -16,7 +16,6 @@ import './App.css';
 
 const AppLayout = () => {
   const location = useLocation();
-  const isHomePage = location.pathname === '/';
 
   return (
     <>

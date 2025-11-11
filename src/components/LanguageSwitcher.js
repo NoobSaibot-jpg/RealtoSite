@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Dropdown } from 'react-bootstrap';
+import { Dropdown } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
